@@ -62,6 +62,8 @@ example-dyadic-irt-numpyro/
 │   ├── demo.ipynb             # walk-through notebook
 │   └── dyadic_irt_data.csv    # example dataset
 │
+├── .gitattributes
+├── .gitignore
 ├── README.md
 └── requirements.txt           # package dependencies
 ```
