@@ -5,7 +5,7 @@ This project implements the basic dyadic IRT partial credit model from [Gin et a
 - The original Stan implementaion can be found in the Stan case study: [Dyadic IRT Model](https://mc-stan.org/learn-stan/case-studies/dyadic_irt_model.html#example-application).
 - This version re-creates the basic model in NumPyro, with support for Stan-like summaries and visualization.
 
-## Install Packages
+## Install packages
 
 ```bash
 # Step 1. Create a virtual environment
