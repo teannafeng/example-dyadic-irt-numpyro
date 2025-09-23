@@ -1,6 +1,4 @@
-# Dyadic IRT Partial Credit Model (NumPyro)
-
-This project implements the basic dyadic IRT partial credit model from [Gin et al. (2020)](https://link.springer.com/article/10.1007/s11336-020-09718-1) in NumPyro.
+This repository implements the basic dyadic IRT partial credit model from [Gin et al. (2020)](https://link.springer.com/article/10.1007/s11336-020-09718-1) in NumPyro.
 
 - The original Stan implementaion can be found in the Stan case study: [Dyadic IRT Model](https://mc-stan.org/learn-stan/case-studies/dyadic_irt_model.html#example-application).
 - This version re-creates the basic model in NumPyro, with support for Stan-like summaries and visualization.
