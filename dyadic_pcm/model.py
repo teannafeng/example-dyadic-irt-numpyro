@@ -94,9 +94,9 @@ def dyadic_pcm_basic(I: int, A: int, U: int, N: int, M: int,
 
     # pcminteract: item response prob for each obs.
     base = (alpha_n + beta_n + gamma_n)[:, None]
-    unsummed = jnp.concatenate([jnp.zeros((N, 1)), base - delta_n], axis=1)
-    cum = jnp.cumsum(unsummed, axis=1)
-    probs = nn.softmax(cum, axis=1)
+    usum = jnp.concatenate([jnp.zeros((N, 1)), base - delta_n], axis=1)
+    csum = jnp.cumsum(usum, axis=1)
+    probs = nn.softmax(csum, axis=1)
 
     # Likelihood 
     numpyro.sample("x_obs", dist.Categorical(probs=probs), obs=x)
