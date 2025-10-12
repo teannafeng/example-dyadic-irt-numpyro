@@ -39,9 +39,9 @@ It walks through:
 - Fitting the model and estimating the parameters with `fit_model`
 - Summarizing results and plotting MCMC traces using [ArviZ](https://python.arviz.org/)
 
-You can run the notebook interactively (e.g. in Jupyter or VS Code), or just read it to see the example.
+Run the notebook interactively (e.g. in Jupyter or VS Code), or just read it to see the example.
 
-## References
+## Reference
 
 Gin, B., Sim, N., Skrondal, A., & Rabe-Hesketh, S. (2020). A dyadic IRT model. *Psychometrika, 85*(3), 815–836. [https://doi.org/10.1007/s11336-020-09718-1](https://doi.org/10.1007/s11336-020-09718-1)
 
